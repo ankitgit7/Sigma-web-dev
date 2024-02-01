@@ -1,0 +1,32 @@
+form types:
+
+these are types of input attributes:
+text
+radio
+checkbox
+
+you can use label tags with input as shown below
+
+Its important to give id value to the input , so that we can use that unique id to relate it to the lable tag also.
+
+for example
+
+<label for="Name">Enter your username:</label>
+<input type="text" id="Name" name="Username" placeholder="Enter your Username">
+
+Also we have textarea tag to enter any text inside the box
+
+<div>
+            <label for="text">Enter your comment:</label>
+            <br>
+            <textarea name="comment" id="text" cols="30" rows="10" placeholder="Enter your comment here.."></textarea>
+        </div>
+
+select tag is used to create a drop down option box
+
+also for forms there are two types:
+
+<form action="/submit" method="post">
+
+methods: post and get
+get is a easy one, and if we want to send bigger data, then post is used

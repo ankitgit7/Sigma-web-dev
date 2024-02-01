@@ -1,0 +1,49 @@
+<img src="image1.png" alt="Train Image">
+
+img is a tag used for displaying images in html. and src is an attribute meaning source of the image.
+
+alt attribute is not mandatory. It is an alternative text that we can put in case the image does not get displayed.
+
+<img width="500" height="500" src="image1.png" alt="Train Image">
+
+width and height also we can use, and these 500 value is always in pixels
+
+Table in html:
+table is the tag.
+tr = table row
+th = table heading
+td = table data
+
+
+Table Headers and Footers:
+also we can use <thead> tag and keep the heading of table inside this
+and we can use tbody tag 
+and also tfoot
+
+Besides <th> for individual header cells, HTML tables allow you to group header or footer content using <thead> and <tfoot>.
+
+<table>
+  <thead>
+     <!--  header content -->
+  </thead>
+  <tbody>
+  <!-- body content -->
+  </tbody>
+  <tfoot>
+  <!-- footer content -->
+  </tfoot>
+  
+</table>
+
+
+
+Lists:
+
+ul = unordered Lists
+ol = ordered Lists
+
+
+SEO Optimization points:
+to keep performance and opmimization high, always set the title of your any page or website
+
+https://web.dev/

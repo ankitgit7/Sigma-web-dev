@@ -1,0 +1,9 @@
+<p> <a href="https://www.google.com">Open Google</a></p>
+
+p and a are tags here
+
+and href is an attribute which is used inside the tag a.
+
+<p> <a target="_blank" href="https://www.x.com">Open Twitter</a></p>
+
+target= "_blank" is used to open any link in new window
