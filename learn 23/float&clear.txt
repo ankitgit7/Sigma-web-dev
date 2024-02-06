@@ -1,0 +1,16 @@
+        img{
+            float: right;
+        }
+        .divs:nth-child(3){
+            background-color: aqua;
+            clear: both;
+
+        }
+
+float is used to keep any object fixed at a place and right the texts around it. for example any image we can keep it on right suppose, then we can put the texts on left side.
+
+clear means if we right clear:right, so in right side of that div, there will be nthg allowed, so that div will kove below.
+
+display: flow-root;
+
+this is used to adjust border according to the space taken by the text or img. 

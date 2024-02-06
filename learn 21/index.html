@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Variables</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        :root{
+            --color: rgb(5, 78, 5);
+            --seccolor: lightgreen;
+            --unipad: 18px;
+        }
+        
+        .class1{
+            padding: 10px;
+            color: var(--color);
+            opacity: 0.7;
+        }
+        .class2{
+            /* display: flex; */
+            color: var(--seccolor);
+            
+        }
+        ul {
+            display: flex;
+            padding: var(--unipad);
+        }
+        ul li{
+            padding: 12px;
+        }
+        .class3{
+            color: var(--seccolor);
+            /* padding: var(--unipad); */
+        }
+    </style>
+</head>
+<body>
+    <div class="class1">
+        <h1>My Website</h1>
+    </div>
+    <div class="class2">
+        <ul>
+            <li>Home</li>
+            <li>Email</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+    <div class="class3">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim, velit minima in quae explicabo non unde eaque, rem dolorum optio amet numquam corporis sequi quam molestias aliquam beatae dolore dolor accusantium corrupti laboriosam sunt.</p>
+    </div>
+</body>
+</html>

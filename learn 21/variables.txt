@@ -1,0 +1,10 @@
+to define any variable:
+:root{
+            --color: rgb(5, 78, 5);
+            --seccolor: lightgreen;
+            --unipad: 18px;
+        }
+
+this --color etc can be used anywhere in the page now, by using:
+
+color: var(--color);

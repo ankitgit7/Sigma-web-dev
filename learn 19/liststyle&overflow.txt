@@ -1,0 +1,18 @@
+     background-color: aquamarine;
+            border: 2px solid black;
+            list-style: devanagari inside;
+            list-style-type: "❤️";
+
+Overflow:
+
+overflow: auto; --> if text is overflowing then it will bring the scrollbar
+overflow: scroll; --> scrollbar will appear
+overflow-x: scroll;
+overflow-y: hidden;
+
+OR 
+overflow: scroll hidden;
+
+these 2 are the same thing.
+
+text-overflow: ellipsis;

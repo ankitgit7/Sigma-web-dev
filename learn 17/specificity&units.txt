@@ -1,0 +1,46 @@
+The Cascade Algorithm
+CSS stands for Cascading Stylesheets. The cascade is the algorithm for solving conflicts where multiple CSS rules apply to an HTML element. It's the reason that the text of the button styled with the above CSS will be purple.
+
+Understanding the cascade algorithm helps you understand how the browser resolves conflicts like this. The cascade algorithm has 4 distinct stages.
+
+Position and order of appearance: the order in which your CSS rules appear
+Specificity: an algorithm that determines which CSS selector has the strongest match
+Origin: the order in which CSS appears and where it comes from, whether that is a browser style, CSS from a browser extension, or your authored CSS
+Importance: some CSS rules are weighted more heavily than others, especially with the !important rule type
+Lets look into all these one by one
+
+Here, you can see color:gray is applied to the h1 tag.
+
+So, the order of specificity is:
+
+Inline Style > ID Selector > Class or Attribute Selector > Element Selector > Universal Selector
+
+Summary of Lecture 21 yt
+1. Cascade: Many selector are used to style a single element and css solve this conflict by Cascade.
+2. Cascade Algorithm : It determine which property of CSS will be applied in Element. The cascade algorithm has 4 distinct stages.
+3. Position and order of appearance : If same selector, then last one will be used
+4. Origin: authored CSS has priority
+5. Important: When !important It has highest priority. 
+6. Specificity: Selector with high specificity is applied to html element.
+7. Order of Specificity: Inline Style > ID selector > Class or Attribute  selector > Element Selector > Universal Selector
+8. Calculating Specificity: Value of Each Selector: Universal is 0, 1 for each element selector or pseudo-element, 10 for each class value (or pseudo-class or attribute selector), 100 for each ID value. Inline Style has 1000 specificity. Just add value to find specificity.
+
+Absolute Units.
+cm - centimetres (1 cm = 37.8 px)
+mm - millimetres
+in - inches (1 in = 96 px = 2.54cm)
+pt - points (1pt = 1/72th of 1 in)
+pc - picas (1pc = 1/6th of 1 in)
+px - pixel (1px = 1/96th of 1 in)
+Generally we only use pixels to set dimensions of an element.
+
+ 
+
+Relative Units
+em - Relative to the font size of the parent element. Eg: 5em means the size would be 5 times the current font size.
+ex - Relative to X height of the existing font
+ch - Relative to the width/ radius of the character “0”.
+rem - Relative to the font size of the root element.
+vw - Relative to 1% of the width of the viewport. (Viewport is the area of the website visible to the user.)
+vh -  Relative to 1% of the height of the viewport
+% - Relative to the parent element’s size.

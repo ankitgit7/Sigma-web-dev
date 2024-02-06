@@ -1,0 +1,1 @@
+the program is self explainatory and has different types of selectors.

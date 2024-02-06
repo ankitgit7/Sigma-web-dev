@@ -1,0 +1,86 @@
+* {
+    background-color: rgb(112, 101, 101);
+}
+.divparent{
+    background-color: white;
+    width: 26vw;
+    height: 85vh;
+    position: absolute;
+    left: 633px;
+    top: 45px;
+    /* border: 2px solid blue; */
+    border-radius: 6%;
+    
+}
+img{
+    width: 481px;
+    height: 355px;
+    position: absolute;
+    left: 2%;
+    top: 1%;
+    border-radius: 8%;
+}
+.span1{
+    color: darkgrey;
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    background-color: white;
+    font-family: fangsong;
+    border: 2px darkgrey solid;
+    box-shadow: 0px 0px 5px 0px;
+    border-radius: 33%;
+    padding: 5px;
+    padding-left: 13px;
+    padding-right: 14px;
+}
+.span2{
+    color: darkgrey;
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    left: 24%;
+    background-color: white;
+    font-family: fangsong;
+    border: 2px darkgrey solid;
+    box-shadow: 0px 0px 5px 0px;
+    border-radius: 33%;
+    padding: 5px;
+    padding-left: 13px;
+    padding-right: 14px;
+}
+h1{
+    background-color: white;
+    position: absolute;
+    top: 52%;
+    left: 7%;
+    font-size: 38px;
+    font-family: system-ui;
+}
+p{
+    background-color: white;
+    position: absolute;
+    top: 62%;
+    left: 3%;
+    font-size: 23px;
+    /* font-weight: 100; */
+    font-family: system-ui;
+    color: rgb(123, 120, 120);
+    padding: 0 22px;
+
+}
+button{
+    background-color: rgb(196, 214, 253);
+    position: absolute;
+    top: 87%;
+    left: 37%;
+    font-size: 14px;
+    padding: 16px;
+    border-radius: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 700;
+    color: rgb(25, 41, 180);
+    border: none;
+}

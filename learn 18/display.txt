@@ -1,0 +1,19 @@
+we can change the element from a block to inline.
+
+display: inline;
+display: inline-block;
+
+in an inline element the padding and margin are not set from the top side. Also width and height of the element cannot be defined. so to enable a inline elemtn to enable these 4 settings, diplay: inline-block; is used
+
+to disapear the element:
+display: none;
+visibility: none; block will remain but text will disappear
+
+outline: 2px blue solid;
+outline-offset: 2px;
+to set outline of any text or para.
+
+box-shadow: 3px 3px 19px 0px #7a2929;
+text-shadow: 1px 0px 2px red;
+
+to apply shadow to any element or text

@@ -1,0 +1,29 @@
+*{
+    background-color: rgb(222, 230, 203);
+    color: rgb(81, 18, 109);
+    margin: 20px;
+}
+h2{
+    color: blue;
+    /* font-weight: 700; */
+    font-size: 30px;
+}
+a:hover{
+    background-color: blueviolet;
+}
+a:link{
+    color: black;
+}
+a:visited{
+    color: rgb(26, 34, 183);
+}
+table, th, td {
+    border: 1px solid;
+  }
+  th, td {
+    padding: 20px;
+    text-align: left;
+  }
+  em{
+    font-size: large;
+  }

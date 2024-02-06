@@ -1,0 +1,14 @@
+margin->border->padding->content
+
+Calculating the total dimension of the element
+The total width and height of the element is calculated with the formula:
+
+Total Width = Width + Left Padding + Right Padding + Left Border + Right Border + Left Margin + Right Margin
+
+Total Height = Height + Top Padding + Bottom Padding + Top Border + Bottom Border + Top Margin + Bottom Margin
+
+
+Margin collapse: If two elements have been given height as 25px and 35px each, then the greater one is taken in between those 2 elements.    
+
+check: https://www.codewithharry.com/tutorial/css-box-model/
+
